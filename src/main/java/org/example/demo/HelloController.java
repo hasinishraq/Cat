@@ -28,13 +28,13 @@ public class HelloController {
 
     @FXML
     public void clickButton(){
-        String alisha = textinput.getText();
+        String iss = textinput.getText();
 
-        //getting text value from scenebuilder textfield  and store in javafx alisha variable
+        //getting text value from scenebuilder textfield  and store in javafx iss variable
         //getText() built in function
 
-        showtext.setText(alisha);
-        //show the alisha text in label showtext
+        showtext.setText(iss);
+        //show the iss text in label showtext
 
         try {
             Image image = new Image(new FileInputStream("src/main/resources/cat.jpg"));
